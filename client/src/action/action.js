@@ -1,7 +1,7 @@
 import axios from 'axios'
 import {createAsyncThunk} from '@reduxjs/toolkit'
 
-const apiUrl = 'http://localhost:5000/names'
+const apiUrl = 'http://localhost:5000/api/names';
 
 export const fetchPosts = createAsyncThunk('user/fetchPosts ', () => {
     return axios
